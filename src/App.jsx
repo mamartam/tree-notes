@@ -1,5 +1,12 @@
+import NavigationTree from "./components/NavigationTree";
+import data from "./data";
+
 function App() {
-  return;
+  return (
+    <>
+      <NavigationTree data={data} />
+    </>
+  );
 }
 
 export default App;
